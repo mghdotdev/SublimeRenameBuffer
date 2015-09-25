@@ -1,6 +1,3 @@
 [
-	{
-		"caption": "File: Rename Tab Label",
-		"command": "rename_tab_label"
-	}
+	{ "command": "rename_tab_label", "args": { "group": -1, "index": -1 }, "caption": "File: Rename Tab Label" }
 ]
