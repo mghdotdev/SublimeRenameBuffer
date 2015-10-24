@@ -1,0 +1,11 @@
+{
+	"name": "RenameTabLabel",
+	"details": "https://github.com/mghweb/SublimeRenameTabLabel",
+	"author": "Max Hegler",
+	"releases": [
+		{
+			"sublime_text": "*",
+			"tags": true
+		}
+	]
+},
