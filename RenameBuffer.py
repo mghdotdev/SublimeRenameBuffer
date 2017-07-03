@@ -1,11 +1,11 @@
 import sublime
 import sublime_plugin
 
-class RenameTabLabelCommand(sublime_plugin.WindowCommand):
+class RenameBufferCommand(sublime_plugin.WindowCommand):
 	def run(self, text='', **kwargs):
 		self.tab_index = kwargs['index']
 		self.tab_group = kwargs['group']
-		self.show_input_panel('Rename Tab Label:', text)
+		self.show_input_panel('Rename Buffer:', text)
 
 	def on_done(self, text):
 		if self.tab_group == -1 or self.tab_index == -1:

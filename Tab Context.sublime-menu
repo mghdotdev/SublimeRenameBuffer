@@ -1,4 +1,4 @@
 [
 	{ "caption": "-" },
-	{ "command": "rename_tab_label", "args": { "group": -1, "index": -1 }, "caption": "Rename" }
+	{ "command": "rename_buffer", "args": { "group": -1, "index": -1 }, "caption": "Rename" }
 ]
